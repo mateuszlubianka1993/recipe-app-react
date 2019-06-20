@@ -11,10 +11,10 @@ class App extends React.Component {
 
   onInputChange = (e) => {
     this.setState({inputValue: e.target.value});
-    // console.log(this.state.inputValue);
+    console.log(this.state.inputValue);
   };
 
-  onFormSubmit = (e) => {
+  onFormSubmit =  (e) => {
     e.preventDefault();
     console.log('Submit');
     const app_id = 'b8f9837b';
