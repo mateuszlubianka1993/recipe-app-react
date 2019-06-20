@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import SearchBar from './SearchBar';
+import RecipesList from './RecipesList';
 
 class App extends React.Component {
   state = {
@@ -47,6 +48,7 @@ class App extends React.Component {
         <SearchBar 
         onInputChange={this.onInputChange}
         onFormSubmit={this.onFormSubmit}/>
+        <RecipesList recipes={this.state.recipes}/>
       </div>
     );
   };
