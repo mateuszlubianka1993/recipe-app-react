@@ -31,7 +31,7 @@ const Recipe = ({recipe}) => {
                         {recipe.recipe.ingredientLines.map(ingredient=><div className="alert alert-primary" key={ingredient} role="alert">{ingredient}</div>)}
                     </div>
                 </div>
-                <a href={recipe.recipe.url} className="btn btn-primary">Get Recipe</a>
+                <a href={recipe.recipe.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Get Recipe</a>
             </div>
         </div>
     );
