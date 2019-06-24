@@ -7,8 +7,8 @@ const Recipe = ({recipe}) => {
         <div className="card recipe-container">
             <img src={recipe.recipe.image} className="card-img-top" alt={recipe.recipe.label}/>
             <div className="card-body">
-                <h5 className="card-title">{recipe.recipe.label}</h5>
-                <p className="card-text">Health labels: {recipe.recipe.healthLabels.map(label=><span className="badge badge-secondary badge-success" key={label}> {label}</span>)}</p>
+                <h4 className="card-title">{recipe.recipe.label}</h4>
+                <h4 className="card-text">Health labels: {recipe.recipe.healthLabels.map(label=><span className="badge badge-secondary badge-success" key={label}> {label}</span>)}</h4>
                 <div className="description-container">
                     <div className="description-box">
                         <div className="alert alert-primary" role="alert">

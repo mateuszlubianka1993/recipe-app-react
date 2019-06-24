@@ -1,9 +1,10 @@
 .header-container {
-    background-color:;
+    background-color: rgba(0,66,171,0.5);
     text-align: center;
     padding: 25px;
+    margin-bottom: 15px;
 }
 .header-txt {
-    font-size: 38px;
-    color:;
+    font-size: 50px;
+    color: #fff;
 }
