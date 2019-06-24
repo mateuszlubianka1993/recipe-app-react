@@ -1,13 +1,14 @@
 import React from 'react';
+import './styles/Recipe.css';
 
 const Recipe = ({recipe}) => {
 
     return(
-        <div className="card">
+        <div className="card recipe-container">
             <img src={recipe.recipe.image} className="card-img-top" alt={recipe.recipe.label}/>
             <div className="card-body">
                 <h5 className="card-title">{recipe.recipe.label}</h5>
-                <p className="card-text">Health labels: {recipe.recipe.healthLabels.map(label=><span className="badge badge-secondary" key={label}> {label}</span>)}</p>
+                <p className="card-text">Health labels: {recipe.recipe.healthLabels.map(label=><span className="badge badge-secondary badge-success" key={label}> {label}</span>)}</p>
                 <div className="description-container">
                     <div className="description-box">
                         <div className="alert alert-primary" role="alert">

@@ -1,0 +1,10 @@
+.recipe-container{
+    min-width: 50%;
+    flex-basis: 50%;
+    margin-bottom: 10px;
+}
+.description-container {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
