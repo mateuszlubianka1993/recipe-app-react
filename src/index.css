@@ -3,4 +3,5 @@ body {
   font-family: 'Kaushan Script', cursive;
   background-image: url('./img/bread-color-copyspace-1565982.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
 }
