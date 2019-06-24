@@ -11,12 +11,10 @@ class App extends React.Component {
 
   onInputChange = (e) => {
     this.setState({inputValue: e.target.value});
-    console.log(this.state.inputValue);
   };
 
   onFormSubmit =  (e) => {
     e.preventDefault();
-    console.log('Submit');
     const app_id = 'b8f9837b';
     const app_key = '93b80432c253167006389245910e5a22';
     const apiUrl = `https://api.edamam.com/search?q=${this.state.inputValue}&app_id=${app_id}&app_key=${app_key}`;
@@ -35,10 +33,8 @@ class App extends React.Component {
         });
       })
       .catch(err => {
-        // this.setState({error: true})
         console.log(err)
       })
-      console.log(this.state.recipes)
   };
 
   render() {
