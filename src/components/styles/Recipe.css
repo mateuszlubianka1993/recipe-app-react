@@ -8,3 +8,11 @@
     justify-content: space-between;
     flex-basis: 50%;
 }
+
+@media (max-width: 767px) {
+    .recipe-container{
+        min-width: 50%;
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+}
