@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 > Hi everyone! This is my version of simple Recipe React APP. 
 
 ## Live
-
+https://mateuszlubianka1993.github.io/recipe-app-react/
 
 ## Technologies:
 * React
